@@ -2,8 +2,8 @@
 CC=/usr/bin/c++
 #INCL=-I/usr/local/include
 #LDFLAGS=-L/usr/local/lib
-LDFLAGS=-L/usr/home/maemigh/cypherpunk-devops/output-openvpn-freebsd64/pkgbuild/usr/local/cypherpunk/openvpn/lib -Wl,-rpath=/usr/local/cypherpunk/openvpn/lib
-INCL=-I/usr/home/maemigh/cypherpunk-devops/output-openvpn-freebsd64/pkgbuild/usr/local/cypherpunk/openvpn/include
+LDFLAGS=-L/output-openvpn-freebsd64/pkgbuild/usr/local/cypherpunk/openvpn/lib -Wl,-rpath=/usr/local/cypherpunk/openvpn/lib
+INCL=-I/output-openvpn-freebsd64/pkgbuild/usr/local/cypherpunk/openvpn/include
 #LIBS=-lgcrypt -lgpg-error -lstdc++ -lm -lpthread
 LIBS=-lgcrypt -lgpg-error -lm -lpthread
 
